@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Employee", "TimeOff.Employee\TimeOff.Employee.csproj", "{787F1D88-ABE6-47A9-884A-164716546851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Models", "TimeOff.Models\TimeOff.Models.csproj", "{09402E01-2CAD-4974-99A9-612C91E6B6BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Common", "TimeOff.Common\TimeOff.Common.csproj", "{43E9195B-9D82-4FDA-8390-E522FBD1E3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Manager", "TimeOff.Manager\TimeOff.Manager.csproj", "{597E1412-5FEA-4153-ABB4-3A2D655E0676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Reader", "TimeOff.Reader\TimeOff.Reader.csproj", "{0132BEE0-EF9A-4097-8F4A-D0FFABE597FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{787F1D88-ABE6-47A9-884A-164716546851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787F1D88-ABE6-47A9-884A-164716546851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787F1D88-ABE6-47A9-884A-164716546851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787F1D88-ABE6-47A9-884A-164716546851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09402E01-2CAD-4974-99A9-612C91E6B6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09402E01-2CAD-4974-99A9-612C91E6B6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09402E01-2CAD-4974-99A9-612C91E6B6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09402E01-2CAD-4974-99A9-612C91E6B6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E9195B-9D82-4FDA-8390-E522FBD1E3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E9195B-9D82-4FDA-8390-E522FBD1E3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E9195B-9D82-4FDA-8390-E522FBD1E3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E9195B-9D82-4FDA-8390-E522FBD1E3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597E1412-5FEA-4153-ABB4-3A2D655E0676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597E1412-5FEA-4153-ABB4-3A2D655E0676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597E1412-5FEA-4153-ABB4-3A2D655E0676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597E1412-5FEA-4153-ABB4-3A2D655E0676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0132BEE0-EF9A-4097-8F4A-D0FFABE597FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0132BEE0-EF9A-4097-8F4A-D0FFABE597FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0132BEE0-EF9A-4097-8F4A-D0FFABE597FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0132BEE0-EF9A-4097-8F4A-D0FFABE597FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA145FEC-EDCA-4963-9D43-0587B2CE91B5}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.TabWidth = 2
+		$1.TabsToSpaces = True
+		$1.IndentWidth = 2
+		$1.NoTabsAfterNonTabs = True
+		$1.scope = text/x-json
+	EndGlobalSection
+EndGlobal
