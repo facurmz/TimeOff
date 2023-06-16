@@ -27,6 +27,6 @@
     <Folder Include="Messages\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TimeOff.Common\TimeOff.Kafka.Common.csproj" />
+    <ProjectReference Include="..\TimeOff.Kafka.Common\TimeOff.Kafka.Common.csproj" />
   </ItemGroup>
 </Project>
