@@ -5,7 +5,7 @@
 //    is regenerated
 // </auto-generated>
 // ------------------------------------------------------------------------------
-namespace TimeOff.Models
+namespace TimeOff.Kafka.Common.Models
 {
 	using System;
 	using System.Collections.Generic;

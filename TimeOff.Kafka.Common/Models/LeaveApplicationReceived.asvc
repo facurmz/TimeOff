@@ -1,5 +1,5 @@
 ﻿{
-    "namespace": "TimeOff.Models",
+    "namespace": "TimeOff.Kafka.Common.Models",
     "type": "record",
     "name": "LeaveApplicationReceived",
     "fields": [

@@ -5,9 +5,9 @@ using Confluent.Kafka.SyncOverAsync;
 using Confluent.SchemaRegistry;
 using Confluent.SchemaRegistry.Serdes;
 using Microsoft.Extensions.Configuration;
-using TimeOff.Common;
-using TimeOff.Manager.Messages;
-using TimeOff.Models;
+using TimeOff.Kafka.Common;
+using TimeOff.Kafka.Common.Models;
+using TimeOff.Kafka.Manager;
 
 IConfiguration _configuration;
 ConsumerConfig _consumerConfig;

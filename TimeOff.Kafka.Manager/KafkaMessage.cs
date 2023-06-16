@@ -1,6 +1,6 @@
-﻿using TimeOff.Models;
+﻿using TimeOff.Kafka.Common.Models;
 
-namespace TimeOff.Manager.Messages;
+namespace TimeOff.Kafka.Manager;
 
 public record KafkaMessage
 (

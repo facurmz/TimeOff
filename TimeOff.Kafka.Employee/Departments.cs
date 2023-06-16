@@ -1,4 +1,4 @@
-﻿namespace TimeOff.Employee;
+﻿namespace TimeOff.Kafka.Employee;
 
 public enum Departments
 {

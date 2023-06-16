@@ -1,4 +1,4 @@
-﻿namespace TimeOff.Common;
+﻿namespace TimeOff.Kafka.Common;
 
 public static class Constants
 {

@@ -5,9 +5,9 @@ using Confluent.Kafka.Admin;
 using Confluent.SchemaRegistry;
 using Confluent.SchemaRegistry.Serdes;
 using Microsoft.Extensions.Configuration;
-using TimeOff.Common;
-using TimeOff.Employee;
-using TimeOff.Models;
+using TimeOff.Kafka.Common;
+using TimeOff.Kafka.Common.Models;
+using TimeOff.Kafka.Employee;
 
 IConfiguration _configuration;
 AdminClientConfig _adminConfig;

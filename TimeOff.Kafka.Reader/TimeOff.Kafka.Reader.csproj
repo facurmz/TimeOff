@@ -25,7 +25,6 @@
     <PackageReference Include="Confluent.SchemaRegistry.Serdes.Avro" Version="2.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TimeOff.Common\TimeOff.Common.csproj" />
-    <ProjectReference Include="..\TimeOff.Models\TimeOff.Models.csproj" />
+    <ProjectReference Include="..\TimeOff.Common\TimeOff.Kafka.Common.csproj" />
   </ItemGroup>
 </Project>

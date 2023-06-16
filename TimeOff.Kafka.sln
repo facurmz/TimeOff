@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Kafka.Common", "TimeOff.Kafka.Common\TimeOff.Kafka.Common.csproj", "{10702E68-35F4-4378-8838-4AF3F5054446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Kafka.Employee", "TimeOff.Kafka.Employee\TimeOff.Kafka.Employee.csproj", "{6F30D88E-23D0-4BBD-BDEB-843A0C12F9D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Kafka.Manager", "TimeOff.Kafka.Manager\TimeOff.Kafka.Manager.csproj", "{5CAB5316-801C-4116-B234-9D7C83D56B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Kafka.Reader", "TimeOff.Kafka.Reader\TimeOff.Kafka.Reader.csproj", "{801B8DF6-4E5F-46B1-945F-9A7152A5885C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10702E68-35F4-4378-8838-4AF3F5054446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10702E68-35F4-4378-8838-4AF3F5054446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10702E68-35F4-4378-8838-4AF3F5054446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10702E68-35F4-4378-8838-4AF3F5054446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F30D88E-23D0-4BBD-BDEB-843A0C12F9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F30D88E-23D0-4BBD-BDEB-843A0C12F9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F30D88E-23D0-4BBD-BDEB-843A0C12F9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F30D88E-23D0-4BBD-BDEB-843A0C12F9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAB5316-801C-4116-B234-9D7C83D56B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAB5316-801C-4116-B234-9D7C83D56B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAB5316-801C-4116-B234-9D7C83D56B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAB5316-801C-4116-B234-9D7C83D56B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801B8DF6-4E5F-46B1-945F-9A7152A5885C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801B8DF6-4E5F-46B1-945F-9A7152A5885C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801B8DF6-4E5F-46B1-945F-9A7152A5885C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801B8DF6-4E5F-46B1-945F-9A7152A5885C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA145FEC-EDCA-4963-9D43-0587B2CE91B5}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.TabWidth = 2
+		$1.TabsToSpaces = True
+		$1.IndentWidth = 2
+		$1.NoTabsAfterNonTabs = True
+		$1.scope = text/x-json
+	EndGlobalSection
+EndGlobal

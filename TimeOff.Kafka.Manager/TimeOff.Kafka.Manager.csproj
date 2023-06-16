@@ -15,10 +15,6 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TimeOff.Models\TimeOff.Models.csproj" />
-    <ProjectReference Include="..\TimeOff.Common\TimeOff.Common.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <None Remove="appsettings.json" />
     <None Remove="Messages\" />
   </ItemGroup>
@@ -29,5 +25,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Messages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimeOff.Common\TimeOff.Kafka.Common.csproj" />
   </ItemGroup>
 </Project>
